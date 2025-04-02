@@ -18,19 +18,19 @@ if (level === 1) {
 tiles.setCurrentTilemap(tile)
 }
 
-}else if (l == 1) {
+}else if (l === 1) {
 if (level === 2) {
 tiles.setCurrentTilemap(tile)
 }
 } 
 
-else if (l == 2) {
+else if (l === 2) {
 if (level === 3) {
 tiles.setCurrentTilemap(tile)
 }
 }
 
-else if (l == 3)  {
+else if (l === 3)  {
 if (level === 4) {
 tiles.setCurrentTilemap(tile)
 }
@@ -60,19 +60,19 @@ tiles.setCurrentTilemap(tile)
               return true;
             }
 
-        } else if (l == 1) {
+        } else if (l === 1) {
             if (level === 2) {
               return true;
             }
         }
 
-        else if (l == 2) {
+        else if (l === 2) {
             if (level === 3) {
                 return true;
             }
         }
 
-        else if (l == 3) {
+        else if (l === 3) {
             if (level === 4) {
                 return true;
             }
