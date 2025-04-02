@@ -15,7 +15,6 @@ export function c(tile: tiles.TileMapData,l:Levels): void {
 forever(function() {
 if (l === 0) {
 if (level === 1) {
-    pause(500)
 tiles.setCurrentTilemap(tile)
 }
 
