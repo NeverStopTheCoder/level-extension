@@ -13,6 +13,7 @@ namespace levels {
 //%tile.shadow=tiles_tilemap_editor
 export function c(tile: tiles.TileMapData,l:Levels): void {
 forever(function() {
+    pause(500)
 if (l === 0) {
 if (level === 1) {
 tiles.setCurrentTilemap(tile)
