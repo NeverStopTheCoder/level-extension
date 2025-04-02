@@ -46,12 +46,16 @@ tiles.setCurrentTilemap(tile)
     export function coverTil(e:Levels) {
      if (e === 0) {
          level = 1
+         pause(50)
      } else if (e === 1) {
          level = 2
+         pause(50)
      }else if (e === 2) {
          level = 3
+         pause(50)
      }else if (e === 3) {
          level = 4
+         pause(50)
      }
     }
     //%block="Level is $l"
