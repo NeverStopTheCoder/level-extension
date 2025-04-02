@@ -79,4 +79,18 @@ tiles.setCurrentTilemap(tile)
         }
         return false
     }
+    //block="set $sprite spot to $tile for level $l"
+    //tile.shadow=tileset_tile_picker
+    //sprite.shadow=variables_get
+    //export function st(tile: Image,sprite: Sprite,l:Levels): void {
+       // if (l == 0) {
+      //      tiles.placeOnRandomTile(sprite,tile)
+     //   }
+  //  }
+
+  //%block="Set $sprite tile spot to col $n row $n2"
+  //%sprite.shadow=variables_get
+export function sS(n: number,n2: number,sprite: Sprite): void {
+tiles.placeOnTile(sprite, tiles.getTileLocation(n, n2))
+}
 }
