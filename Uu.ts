@@ -88,9 +88,11 @@ tiles.setCurrentTilemap(tile)
      //   }
   //  }
 
-  //%block="Set $sprite tile spot to col $n row $n2"
-  //%sprite.shadow=variables_get
-export function sS(n: number,n2: number,sprite: Sprite): void {
-tiles.placeOnTile(sprite, tiles.getTileLocation(n, n2))
-}
+  //block="Set $sprite tile spot to col $n row $n2 for $l"
+  //sprite.shadow=variables_get
+//export function sS(n: number,n2: number,sprite: Sprite,l:Levels): void {
+   // if (l == 0) {
+//tiles.placeOnTile(sprite, tiles.getTileLocation(n, n2))
+   // }
+//}
 }
