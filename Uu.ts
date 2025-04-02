@@ -12,7 +12,7 @@ namespace levels {
 //%block="set level $l to $tile"
 //%tile.shadow=tiles_tilemap_editor
 export function c(tile: tiles.TileMapData,l:Levels): void {
-forever(function() {
+game.onUpdate(function() {
 if (l === 0) {
 if (level === 1) {
 tiles.setCurrentTilemap(tile)
