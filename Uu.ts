@@ -78,6 +78,17 @@ tiles.setCurrentTilemap(t)
         }
         return false;
     }
+    //%block="change level by $n"
+    //%group="Basic"
+    export function cn(n: number): void {
+        level += n
+    }
+
+    //%block="change level by $n"
+    //%group="Advanced"
+    export function cn2(n: number): void {
+        level2 += n
+    }
     //block="set $sprite spot to $tile for level $l"
     //tile.shadow=tileset_tile_picker
     //sprite.shadow=variables_get
