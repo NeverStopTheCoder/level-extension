@@ -9,17 +9,19 @@
         "main.ts",
         "README.md",
         "assets.json",
-        "Uu.ts"
+        "Uu.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "2.0.46",
+        "target": "2.0.56",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }

@@ -11,74 +11,31 @@ namespace levels {
     let level = 0
 //%block="set level $l to $tile"
 //%tile.shadow=tiles_tilemap_editor
-export function c(tile: tiles.TileMapData,l:Levels): void {
+export function c(tile: tiles.TileMapData,l:number): void {
 forever(function() {
-if (l === 0) {
-if (level === 1) {
-tiles.setCurrentTilemap(tile)
-}
-
-}else if (l === 1) {
-if (level === 2) {
-tiles.setCurrentTilemap(tile)
-}
-} 
-
-else if (l === 2) {
-if (level === 3) {
-tiles.setCurrentTilemap(tile)
-}
-}
-
-else if (l === 3)  {
-if (level === 4) {
+if (l === l) {
+if (level === l) {
 tiles.setCurrentTilemap(tile)
 }
 }
 })
-
 }
+
    
      //% block="set level to $e"
     //% cover.shadow=tileset_tile_picker
     //%sprite.shadow=variables_get
-    export function coverTil(e:Levels) {
-     if (e === 0) {
-         level = 1
+    export function coverTil(e:number) {
+     if (e === e) {
+         level = e
          pause(50)
-     } else if (e === 1) {
-         level = 2
-         pause(50)
-     }else if (e === 2) {
-         level = 3
-         pause(50)
-     }else if (e === 3) {
-         level = 4
-         pause(50)
-     }
+     } 
     }
     //%block="Level is $l"
-    export function b(l: Levels): boolean {
-        if (l === 0) {
-            if (level === 1) {
+    export function b(l: number): boolean {
+        if (l === l) {
+            if (level === l) {
               return true;
-            }
-
-        } else if (l === 1) {
-            if (level === 2) {
-              return true;
-            }
-        }
-
-        else if (l === 2) {
-            if (level === 3) {
-                return true;
-            }
-        }
-
-        else if (l === 3) {
-            if (level === 4) {
-                return true;
             }
         }
         return false
