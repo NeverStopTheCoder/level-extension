@@ -78,16 +78,27 @@ tiles.setCurrentTilemap(t)
         }
         return false;
     }
-    //%block="change level by $n"
-    //%group="Basic"
+    //%block="change level by $n Basic"
+    //%group="Change Level"
     export function cn(n: number): void {
         level += n
     }
 
-    //%block="change level by $n"
-    //%group="Advanced"
+    //%block="change level by $n Advanced"
+    //%group="Change Level Advanced"
     export function cn2(n: number): void {
         level2 += n
+    }
+
+    //%block="Current Level Basic"
+    //%group="Basic"
+    export function cn3(): number {
+       return level
+    }
+    //%block="Current Level Advanced"
+    //%group="Advanced"
+    export function cn4(): number {
+        return level2
     }
     //block="set $sprite spot to $tile for level $l"
     //tile.shadow=tileset_tile_picker
