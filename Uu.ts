@@ -116,4 +116,10 @@ tiles.setCurrentTilemap(t)
 //tiles.placeOnTile(sprite, tiles.getTileLocation(n, n2))
    // }
 //}
+    //block="level to $tile"
+    //tile.shadow=tiles_tilemap_editor
+    //group=Basic
+   // export function c3(tile: tiles.TileMapData): any {
+   //     return tile
+   // }
 }
